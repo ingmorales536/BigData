@@ -1,12 +1,289 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio Profesional</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/layouts/css/styles.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Iconos -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
+
 <body>
-    <h1>Hello World</h1>
-    <h1>siuuu</h1>
+
+    <!-- NAVBAR -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <h2>Mi Portafolio</h2>
+            </div>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#principal">Principal</a></li>
+                <li><a href="#biografia">Biografía</a></li>
+                <li><a href="#materia">Materia</a></li>
+                <li><a href="#curriculum">Curriculum</a></li>
+                <li><a href="#concurso-web">Concurso Web</a></li>
+                <li><a href="#concurso-carrito">Concurso Carrito</a></li>
+            </ul>
+
+            <div class="menu-toggle" id="menuToggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HERO / PRINCIPAL -->
+    <section id="principal" class="hero">
+        <div class="hero-content fade-in">
+            <span class="badge">Portafolio Profesional</span>
+
+            <h1>Hola, soy <span>Morales Martinez Armando</span></h1>
+
+            <p>
+                Estudiante de Ingeniería en Sistemas enfocado en desarrollo
+                web, software y tecnología.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#curriculum" class="btn-primary">
+                    Ver Curriculum
+                </a>
+
+                <a href="#biografia" class="btn-secondary">
+                    Sobre mí
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- BIOGRAFIA -->
+    <section id="biografia" class="section">
+        <div class="container">
+            <h2 class="section-title">Biografía</h2>
+
+            <div class="bio-content card">
+
+                <div class="bio-image">
+                    <img src="https://via.placeholder.com/350"
+                        alt="Foto perfil">
+                </div>
+
+                <div class="bio-text">
+                    <h3>Morales Martinez Armando</h3>
+
+                    <p>
+                        Soy estudiante de Ingeniería en Sistemas con pasión
+                        por el desarrollo de software, aplicaciones web y
+                        tecnologías emergentes.
+                    </p>
+
+                    <p>
+                        Me interesa el desarrollo frontend, backend,
+                        bases de datos y la creación de soluciones
+                        tecnológicas innovadoras.
+                    </p>
+
+                    <div class="skills">
+                        <span>Java</span>
+                        <span>Flutter</span>
+                        <span>MySQL</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- MATERIA -->
+    <section id="materia" class="section bg-section">
+        <div class="container">
+
+            <h2 class="section-title">
+                Materias / Proyectos Académicos
+            </h2>
+
+            <div class="cards">
+
+                <div class="card hover-card">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Programación</h3>
+                    <p>
+                        Desarrollo de algoritmos y software.
+                    </p>
+                </div>
+
+                <div class="card hover-card">
+                    <i class="fa-solid fa-database"></i>
+                    <h3>Bases de Datos</h3>
+                    <p>
+                        Diseño y administración de bases de datos.
+                    </p>
+                </div>
+
+                <div class="card hover-card">
+                    <i class="fa-solid fa-network-wired"></i>
+                    <h3>Redes</h3>
+                    <p>
+                        Configuración y administración de redes.
+                    </p>
+                </div>
+
+                <div class="card hover-card">
+                    <i class="fa-solid fa-microchip"></i>
+                    <h3>Compiladores</h3>
+                    <p>
+                        Diseño de analizadores léxicos y sintácticos.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CURRICULUM -->
+    <section id="curriculum" class="section">
+        <div class="container">
+
+            <h2 class="section-title">Curriculum</h2>
+
+            <div class="cv-grid">
+
+                <div class="card">
+                    <h3>Educación</h3>
+
+                    <ul>
+                        <li>Ingeniería en Sistemas</li>
+                        <li>Certificaciones Tecnológicas</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>Habilidades</h3>
+
+                    <ul>
+                        <li>Java</li>
+                        <li>Flutter</li>
+                        <li>MySQL</li>
+                        <li>HTML, CSS, JS</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>Tecnologías</h3>
+
+                    <ul>
+                        <li>Git / GitHub</li>
+                        <li>MySQL</li>
+                        <li>VS Code</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="cv-download">
+                <a href="#" class="btn-primary">
+                    Descargar CV PDF
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CONCURSO WEB -->
+    <section id="concurso-web" class="section bg-section">
+        <div class="container">
+
+            <h2 class="section-title">
+                Concurso Web
+            </h2>
+
+            <div class="project card">
+
+                <img src="https://via.placeholder.com/900x400"
+                    alt="Proyecto web">
+
+                <div class="project-info">
+                    <h3>Proyecto Concurso Web</h3>
+
+                    <p>
+                        Sistema desarrollado para concurso web,
+                        mostrando funcionalidades, diseño y
+                        tecnologías implementadas.
+                    </p>
+
+                    <div class="tech-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <button class="btn-primary">
+                        Ver Proyecto
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CONCURSO CARRITO -->
+    <section id="concurso-carrito" class="section">
+        <div class="container">
+
+            <h2 class="section-title">
+                Concurso Carrito
+            </h2>
+
+            <div class="project card">
+
+                <img src="https://via.placeholder.com/900x400"
+                    alt="Proyecto carrito">
+
+                <div class="project-info">
+
+                    <h3>Proyecto Carrito</h3>
+
+                    <p>
+                        Proyecto basado en automatización y control
+                        de un carrito tecnológico para competencias.
+                    </p>
+
+                    <div class="tech-tags">
+                        <span>Arduino</span>
+                        <span>C++</span>
+                        <span>Sensores</span>
+                    </div>
+
+                    <button class="btn-primary">
+                        Ver Resultados
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>
+            © 2026 - Mi Portafolio Profesional
+        </p>
+    </footer>
+
+    <!-- JS -->
+    <script src="layouts/js/script.js"></script>
+    
 </body>
 </html>
