@@ -1,0 +1,229 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+.contenedorHeader h1{
+    color: rgb(238, 127, 0);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 150px;
+    box-shadow: 2px 2px 5px rgb(255, 255, 255);
+}
+.contenedorHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.gifPolloInicio{
+    width: 300px;
+    height: auto;
+}
+
+.ContenedorMenu{
+    justify-content: center;
+    padding: 15px;
+    
+}
+
+#TituloMenu{
+    color:rgb(238, 127, 0);
+    font-size: 60px;
+}
+#SubTituloMenu{
+    color:white;
+    font-size: 25px;
+}
+ 
+
+.seccionMenu{
+    padding:120px 8%;
+}
+
+.seccionMenu h2{
+    color:rgb(238, 127, 0);
+    font-size: 50px;
+    text-align: center;
+}
+
+.ContenedorMenuImagenes{
+        display:grid;
+        grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+        gap:30px;
+}
+
+
+.imagenesmenu {
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:30px;
+    background:#1b1b1b;
+    border-radius:25px;
+    overflow:hidden;
+    transition:.4s;
+}
+.imagenesmenu h3{
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.imagenesmenu p{
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
+
+.imagenesmenu:hover{
+    transform:translateY(-10px);
+}
+
+.imagenesmenu img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+}
+
+.imagenesmenu p{
+    padding:0 20px 20px;
+}
+
+.seccionJuevesPozolero{
+    padding:120px 8%;
+}
+
+.contenedorjuevespozole{
+    background-color: #1b1b1b;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    width: 100%;
+    height: 500px;
+     border-radius:25px;
+}
+
+.contenedorjuevespozole img{
+    width: auto;
+    height: auto;
+    object-fit: cover;
+}
+
+
+.seccioncompromisoyenvio{
+    padding:120px 8%;
+}
+
+.ContenedorCompromisoEnvio{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+
+.seccioncompromisoyenvio h2{
+    color:rgb(238, 127, 0);
+    font-size: 50px;
+    text-align: center;
+}
+
+.ContenedorCompromisoEnvio p{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    text-align: center;
+    max-width: 900px;
+}
+
+.ContenedorCompromisoEnvio img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.ContenedorCompromisoEnvio strong{
+    color: rgb(238, 127, 0);
+    font-size: 34px;
+}
+
+.seccionporquemela{
+    padding:120px 8%;
+}
+.ContenedorPorquePollosMela{
+    justify-content: center;
+    padding: 15px;
+    background-color: #1b1b1b;
+    border-radius: 25px;
+}
+.ContenedorPorquePollosMela p{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+    max-width: 900px;
+} 
+
+
+
+
+
+.seccioubicacion{
+    padding:120px 8%;
+}
+
+.seccioubicacion h2{
+    color:rgb(238, 127, 0);
+    font-size: 50px;
+    text-align: center;
+}
+
+.ContenedorUbicacion{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.ContenedorUbicacion img{
+    width: auto;
+    height: auto;
+    object-fit: cover;
+}
+
+
+.seccionquienessomos{
+    padding:120px 8%;
+}
+.ContenedorQuienesSomos{
+    justify-content: center;
+    padding: 15px;
+    background-color: #1b1b1b;
+    border-radius: 25px;
+}
+
+
+#TituloQuienesSomos{
+    color:rgb(238, 127, 0);
+    font-size: 50px;
+    text-align: center;
+}
+
+#tituloquienessomos{
+    color: rgb(238, 127, 0);
+    font-size: 36px;
+}
+
+#introduccion{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+footer{
+    color: white;
+    background-color: #1b1b1b;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    font-size: 25px;
+}
