@@ -313,6 +313,10 @@ body {
     border-radius: 20px;
     margin-bottom: 25px;
 }
+#portadacarrito{
+    width: 100%;
+    height: 900px;
+}
 
 .project-info h3 {
     margin-bottom: 15px;
